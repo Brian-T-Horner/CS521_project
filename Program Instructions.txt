@@ -1,0 +1,19 @@
+To run this program for the 2021 Formula 1 season, as user just needs to press run. The provided URL is for this current Formula 1 season. If the user wishes to run this program with future Formula 1 seasons, the URL provided to the Main function must be updated.
+
+Once the user has provided the Formula 1 schedule URL the program will prompt the user for a file name. This file name must be a valid file name with the .txt type specifier. The file does not need to exist before running the program. The program will ask the user if they would like to overwrite the file name, if this wish they can enter 'Yes', else they can enter 'No'. 
+
+If the user selected to overwrite the file, the program will overwrite the specified file and prompt the user to see if they would like to add a descriptive header to the file before the Formula 1 race data. If 'Yes' is selected the program will write a header and proceed to write the formatted data from the Formula 1 schedule url into the following format.
+
+Race Name: 
+Race Location:
+Race Time:
+Race Time in EST:
+Time until Race:
+
+It will do this for every future race on the Formula 1 schedule.
+
+If the user selected to not overwrite the file. The program will append the formatted data from the Formula 1 schedule url onto the provided file. It will not prompt the user to ask if they would like a descriptive heading.
+
+Once the program is finished, the user can do what they wish with the text file. This program can be run over the same text file as many times as the user would like.
+
+Descriptive outputs and provided to the user throughout the process, in order to pull back the curtain of the program. This allows a user the knowledge of what the program has done.
